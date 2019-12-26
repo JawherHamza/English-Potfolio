@@ -1,0 +1,6 @@
+https://jawherhamzaen.netlify.io/
+https://jawherhamzaen.netlify.io/assets/files/CV - FR.pdf
+https://jawherhamzaen.netlify.io/assets/files/CV - EN.pdf
+https://jawherhamzaen.netlify.io/sitemap.xml
+User-agent: *
+Disallow:

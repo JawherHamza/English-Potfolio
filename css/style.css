@@ -1,0 +1,344 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url('https://miro.medium.com/max/11334/1*_0Cu63U3TlJCoJ3kZcgNoA.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 820px
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 820px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 130px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  color: #008ed6;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.myPic {
+  border-radius: 15px;
+  max-width: 285px;
+  width: 100%;
+}
+
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 21px;
+  display: block;
+  position: relative;
+  padding-left: 65px;
+  border-left: 5px solid #eee;
+}
+
+blockquote:before {
+  content: "\"";
+  font-size: 70px;
+  font-family: FontAwesome;
+  position: absolute;
+  top: -8px;
+  left: 20px;
+}
+
+blockquote span:before {
+  content: '--';
+  padding: 0 10px 0 0;
+}
+
+blockquote span {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 100;
+  color: #999;
+}
+
+.blocLeft {
+  border-left: 5px solid #eee;
+  border-color: rgb(75, 75, 75)
+}
+
+.blocRight {
+  border-right: 5px solid #eee;
+  border-color: rgb(75, 75, 75)
+}
+
+.aa,
+.bb {
+  margin-bottom: 30px;
+}
+
+.cpmtEl {
+  text-align: center;
+  margin-bottom: 35px;
+  font-weight: 100;
+  font-family: system-ui;
+  font-weight: 200;
+  line-height: 1.42857143;
+  color: #999;
+  overflow-x: hidden;
+  font-size: small;
+}
+
+.cpmtEl i {
+  cursor: pointer;
+  color: #999;
+  transition: all .2s ease-in-out;
+}
+
+.cpmtEl i:hover {
+  color: rgba(254, 80, 76, 1);
+}
+
+.caption {
+  font-weight: 100;
+  font-size: 16px;
+  color: rgb(172, 170, 170);
+}
+
+.progress {
+  height: 15px;
+  background: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.checked {
+  color: orange
+}
+
+.modal-body {
+  max-height: 75vh;
+  overflow-y: auto;
+
+}
+
+.competences .modal-body i {
+  padding: 0 !important;
+  cursor: none;
+}
+
+.progress-title {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+}
+
+.progress {
+  height: 15px;
+  background: #f1f1f1;
+  margin-bottom: 15px;
+}
+
+.progress .progress-bar {
+  position: relative;
+  animation: animate-positive 2s;
+}
+
+.progress .progress-value {
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  position: absolute;
+  top: -30px;
+  right: -25px;
+}
+
+.progress .progress-bar:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  background: #fff;
+  position: absolute;
+  top: -10px;
+  bottom: -10px;
+  right: -5px;
+  z-index: 1;
+  transform: rotate(35deg);
+}
+
+.rating {
+  bottom: 0
+}
+
+.owl-nav {
+  text-align: center;
+  font-size: 80px;
+}
+
+.owl-prev,
+.owl-next {
+  margin: 15px;
+}
+
+.carousel-inner img {
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 900) {
+  .carousel-inner img {
+    max-height: 500px;
+    object-fit: contain;
+  }
+}
+
+.carrouselImg {
+  cursor: pointer;
+  height: 250px;
+  width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+
+}
+
+.figurefx {
+  position: relative;
+  overflow: hidden;
+}
+
+.potfolioModal {
+  background-color: transparent;
+  border: none;
+}
+
+.figurefx figcaption {
+  color: white;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background-color: rgb(71, 71, 71);
+  padding: 10px;
+  text-align: center;
+}
+
+.pushup:hover figcaption {
+  transform: translate3d(0, -100%, 0);
+  transition: all 0.5s;
+}
+
+.carouselBtn {
+  color: rgb(41, 40, 40);
+  background-color: #FFF;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-weight: 500;
+}
+
+.carouselBtn i {
+  padding-left: 3px;
+}
+
+.download {
+  text-align: center;
+  padding: 10px;
+  color: #008ed6;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  vertical-align: middle;
+  object-fit: cover;
+  backface-visibility: hidden;
+}
+
+.contact-form {
+  color: #008ed6;
+}
+
+.btncontact {
+  min-width: 100%;
+  font-size: 21px;
+  color: #fff;
+  background: #008ed6;
+  padding: 10px 30px;
+  font-weight: 100;
+}
+
+.fa-linkedin:hover {
+  color: #0077B5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.fixedLinked {
+  color: white !important;
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+
+.social i {
+  color: white;
+  margin: 10px;
+}
+
+#dash,
+#dash2 {
+  color: #0077B5 !important;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'Cookie';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cookie-Regular'), url(../assets/files/cookie.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.navbar-brand {
+  font: 400 130px/0.8 'Cookie', Helvetica, sans-serif;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  font-size: 35px;
+  animation: blinker 3s linear;
+  animation-iteration-count: 2;
+  color: white;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
